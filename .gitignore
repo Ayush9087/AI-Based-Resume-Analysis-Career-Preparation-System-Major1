@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Generated output
+dist/
+build/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local-only files and logs
+*.local
+*.log
+npm-debug.log*
+.DS_Store
